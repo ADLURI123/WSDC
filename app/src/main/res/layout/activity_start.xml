@@ -24,32 +24,30 @@
         app:layout_constraintVertical_bias="0.078" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="216dp"
-        android:layout_height="193dp"
-        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:paddingVertical="20dp"
+        android:src="@drawable/national_institute_of_technology__warangal_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237"
-        tools:srcCompat="@drawable/national_institute_of_technology__warangal_logo"
-        tools:visibility="visible" />
+        app:layout_constraintVertical_bias="0.254" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="363dp"
-        android:layout_height="54dp"
+        android:layout_width="383dp"
+        android:layout_height="75dp"
         android:fontFamily="sans-serif-black"
         android:text="NO DUES CLEARANCE MODULE NITW"
         android:textSize="21sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
+        app:layout_constraintVertical_bias="0.605" />
 
     <Button
         android:id="@+id/startlogin"
@@ -74,6 +72,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.855" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

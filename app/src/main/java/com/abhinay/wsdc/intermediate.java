@@ -30,16 +30,16 @@ public class intermediate extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent i = new Intent(intermediate.this, signup.class);
+                Intent i = new Intent(intermediate.this, librarianlogin.class);
                 startActivity(i);
             }
         });
-        librarianbtn.setOnClickListener(new View.OnClickListener()
+        chiefwardenbtn.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                Intent i = new Intent(intermediate.this, signup.class);
+                Intent i = new Intent(intermediate.this, wardenlogin.class);
                 startActivity(i);
             }
         });

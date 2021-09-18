@@ -9,17 +9,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class librarianlogin extends AppCompatActivity {
+public class wardenlogin extends AppCompatActivity {
     private EditText userid,passid;
     private Button login,back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_librarianlogin2);
-        userid = findViewById(R.id.usernametxt);
-        passid = findViewById(R.id.passcodetxt);
-        login  = findViewById(R.id.btnlogin);
-        back = findViewById(R.id.btnbackhome);
+        setContentView(R.layout.activity_wardenlogin);
+        userid = findViewById(R.id.f);
+        passid = findViewById(R.id.g);
+        login  = findViewById(R.id.h);
+        back = findViewById(R.id.i);
         login.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -29,19 +29,19 @@ public class librarianlogin extends AppCompatActivity {
                 String b = passid.getText().toString();
                 if(a.isEmpty()||b.isEmpty())
                 {
-                    Toast.makeText(librarianlogin.this, "Please enter all the data", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(wardenlogin.this, "Please enter all the data", Toast.LENGTH_SHORT).show();
                     return ;
                 }
-                if(a.equals("library")&&b.equals("1729"))
+                if(a.equals("warden")&&b.equals("1234"))
                 {
                     userid.setText("");
                     passid.setText("");
-                    Intent i = new Intent(librarianlogin.this, librarian.class);
+                    Intent i = new Intent(wardenlogin.this, warden.class);
                     startActivity(i);
                 }
                 else
                 {
-                    Toast.makeText(librarianlogin.this, "Please enter correct details ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(wardenlogin.this, "Please enter correct details ", Toast.LENGTH_SHORT).show();
                     return ;
                 }
             }
@@ -51,7 +51,7 @@ public class librarianlogin extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent i = new Intent(librarianlogin.this, start.class);
+                Intent i = new Intent(wardenlogin.this, start.class);
                 startActivity(i);
             }
         });

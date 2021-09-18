@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WSDC">
         <activity
+            android:name=".librarian"
+            android:exported="true" />
+        <activity
+            android:name=".warden"
+            android:exported="true" />
+        <activity
+            android:name=".wardenlogin"
+            android:exported="true" />
+        <activity
             android:name=".librarianlogin"
             android:exported="true" />
         <activity
