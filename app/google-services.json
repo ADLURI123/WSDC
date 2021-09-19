@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "926553795238",
+    "project_id": "wsdc-25621",
+    "storage_bucket": "wsdc-25621.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926553795238:android:33f6c8be7c6708916e6267",
+        "android_client_info": {
+          "package_name": "com.abhinay.wsdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926553795238-1qknoo3h7e5nojq49efldcemdpq6a21e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACqfMLnaSCyFBfJpTMra3vl4T2xFualA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926553795238-1qknoo3h7e5nojq49efldcemdpq6a21e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

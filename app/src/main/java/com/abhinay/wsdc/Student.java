@@ -9,7 +9,9 @@ public class Student
     private String email;
     private String loginid;
     private String password;
-    public Student(String name,String roll,String branch,String mobile,String email,String LoginId,String password)
+    private int hosteldue;
+    private int librarydue;
+    public Student(String name,String roll,String branch,String mobile,String email,String LoginId,String password,int hosteldue,int librarydue)
     {
         this.name = name;
         this.roll = roll;
@@ -18,13 +20,20 @@ public class Student
         this.email = email;
         this.loginid  = LoginId;
         this.password = password;
+        this.hosteldue = hosteldue;
+        this.librarydue = librarydue;
     }
-    public String getLoginid()
+    public String getname()
     {
-        return loginid;
+        return name;
     }
-    public String getPassword()
+    public String getroll()
     {
-        return password;
+        return roll;
     }
+    public String getBranch(){return branch;}
+    public String getMobile (){return mobile;}
+    public String getEmail (){return email;}
+    public int gethosteldue(){return hosteldue;}
+    public int getlibrarydue(){return librarydue;}
 }

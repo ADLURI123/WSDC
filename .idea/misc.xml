@@ -5,7 +5,7 @@
       <map>
         <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_home2.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_homescreen.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_homescreen.xml" value="0.264" />
         <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_intermediate.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_librarian.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_librarianlogin.xml" value="0.17300724637681159" />
@@ -14,6 +14,7 @@
         <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_signup.xml" value="0.264" />
         <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_start.xml" value="0.264" />
         <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_studentlist.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_upload.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_warden.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Abhinay Adluri/AndroidStudioProjects/WSDC/app/src/main/res/layout/activity_wardenlogin.xml" value="0.25416666666666665" />
       </map>

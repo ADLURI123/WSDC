@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                     idploginidEdt.setText("");
                     idppasswordEdt.setText("");
                     Intent i = new Intent(MainActivity.this, homescreen.class);
+                    i.putExtra("loginid",a);
+                    i.putExtra("password",b);
                     startActivity(i);
                 }
                 else if(!dbhandler.check(a,b))
