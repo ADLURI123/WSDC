@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WSDC">
         <activity
+            android:name=".pdfViewer"
+            android:exported="true" />
+        <activity
             android:name=".upload"
             android:exported="true" />
         <activity
